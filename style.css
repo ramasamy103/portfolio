@@ -1,0 +1,171 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); */
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.section-tie{
+  text-align: left;
+}
+.top{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.weath{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.doors{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.pow{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.wether{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.service-top{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.project-img{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.me{
+  margin-left: 130px;
+  background-size: cover;
+
+}
+.con{
+  margin-left: 130px;
+  background-size: cover;
+  
+  
+}
+
+.icon{
+  width: 15%;
+  height: 15%;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  
+  background-size: cover;
+}
+body{
+  background-color: rgb(195, 252, 248);
+ }   
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.logo {
+  max-height: 60px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: black;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background:#3b182ac6;
+  border: 2px solid #fd4766;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.content .title {
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #5f5d65 50.19%,
+    #fd4766 79.69%
+  );
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.content h1 {
+  color: black;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color:darkmagenta;
+}
+.content p {
+  width: 55%;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.project3
+{
+  margin-left: 130px;
+}
